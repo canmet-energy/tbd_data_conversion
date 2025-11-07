@@ -105,15 +105,25 @@ def convert_tbd(sheet: Sheet) -> None:
       "description_x"     : [entry["description_x"]] * num_formatted,
       "description_y"     : [entry["description_y"]] * num_formatted,
       "u_w_per_m_k"       : [entry["u_w_per_m_k"]]   * num_formatted,
-      "id"                : [entry["Material ID"]]   * num_formatted,
-      "multiplier"        : [entry["Multiplier"]]    * num_formatted 
+      "id_layers"         : [entry["Material ID"]]   * num_formatted,
+      "multipliers"       : [entry["Multiplier"]]    * num_formatted 
     }))
 
-  pd.concat(dfs).to_csv(OUT_PATH, index = False)
+  df = pd.concat(dfs)
 
   # ID Layers and multipliers need to be in the same row, find duplicates and
   # merge them
+  df = df.groupby(
+    ["construction_name", "construction_type", "wall_reference", "description_x", "description_y", "u_w_per_m_k"],
+    as_index=False,
+    sort=False
+  ).agg({
+    "id_layers": lambda x: ",".join(map(str, x)),
+    "multipliers": lambda x: ",".join(map(str, x))
+  })
 
+  df.to_csv(OUT_PATH, index = False)
+  
 def match_wall_type(name):
   # Match a type to a wall name and catch errors
 

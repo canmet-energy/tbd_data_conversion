@@ -99,14 +99,14 @@ def convert_tbd(sheet: Sheet) -> None:
 
     num_formatted = len(formatted_entries)
     dfs.append(pd.DataFrame(data = {
-      "construction_name" : [construction_name]      * num_formatted,
-      "construction_type" : [construction_type]      * num_formatted,
-      "wall_reference"    : formatted_entries,
-      "description_x"     : [entry["description_x"]] * num_formatted,
-      "description_y"     : [entry["description_y"]] * num_formatted,
-      "u_w_per_m_k"       : [entry["u_w_per_m_k"]]   * num_formatted,
-      "id_layers"         : [entry["Material ID"]]   * num_formatted,
-      "multipliers"       : [entry["Multiplier"]]    * num_formatted 
+      "construction_name"              : [construction_name]      * num_formatted,
+      "construction_type"              : [construction_type]      * num_formatted,
+      "wall_reference"                 : formatted_entries,
+      "description_x"                  : [entry["description_x"]] * num_formatted,
+      "description_y"                  : [entry["description_y"]] * num_formatted,
+      "u_w_per_m_k"                    : [entry["u_w_per_m_k"]]   * num_formatted,
+      "material_opaque_id_layers"      : [entry["Material ID"]]   * num_formatted,
+      "id_layers_quantity_multipliers" : [entry["Multiplier"]]    * num_formatted 
     }))
 
   df = pd.concat(dfs)
@@ -118,8 +118,8 @@ def convert_tbd(sheet: Sheet) -> None:
     as_index=False,
     sort=False
   ).agg({
-    "id_layers": lambda x: ",".join(map(str, x)),
-    "multipliers": lambda x: ",".join(map(str, x))
+    "material_opaque_id_layers" : lambda x: ",".join(map(str, x)),
+    "id_layers_quantity_multipliers" : lambda x: ",".join(map(str, x))
   })
 
   df.to_csv(OUT_PATH, index = False)

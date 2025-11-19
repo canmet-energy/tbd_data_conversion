@@ -1,52 +1,11 @@
-import sys
 import re
 import pandas as pd
-
-SHEET_PATH = "./data.xls"
-
-# U-Factors defined by Denis to be validated against the excel data
-CORRECT_U_FACTORS = "./ufactors-converted.py"
-
-WALL_TYPE_MAP = {
-  "MASS"         : "BTAP-ExteriorWall-Mass-",
-  "METAL"        : "BTAP-ExteriorWall-Metal-",
-  "STEEL FRAMED" : "BTAP-ExteriorWall-SteelFramed-",
-  "WOOD FRAMED"  : "BTAP-ExteriorWall-WoodFramed-",
-  "IEAD4"        : "BTAP-ExteriorRoof-Mass-" # this is a roof
-}
-
-CONSTRUCTION_TYPE_MAP = {
-  "BTAP-IntermediateFloorEdge" : "rimjoist",     # rim joist
-  "BTAP-GlazingPerimeter"      : "fenestration", # jamb (side), sill (bottom), head (top) (fenestration)
-  "BTAP-Parapet"               : "parapet",  
-  "BTAP-RoofCurbs"             : "", # Roof curbs currently aren't relevant.
-  "BTAP-Grade"                 : "grade",
-  "BTAP-Corner"                : "corner"
-}
-
-class Sheet:
-  def __init__(self, sheet_name, save_name):
-    self.sheet_name = sheet_name
-    self.save_name  = save_name
-
-SHEETS = [
-  Sheet("Thermal Bridging", "thermal_bridging_data.csv"),
-  Sheet("OpaqueMaterials", "materials_opaque.csv")
-]
-
-SHEET_NAMES = list(map(lambda x: x.sheet_name, SHEETS))
+import common
 
 def main() -> None:
-  if len(sys.argv) < 2 or sys.argv[1] not in SHEET_NAMES:
-    print(f"Usage: python3 ./main.py ({'|'.join(SHEET_NAMES)})")
+  convert_tbd(common.SHEETS[0])
 
-  elif sys.argv[1] == SHEET_NAMES[0]:
-    convert_tbd(SHEETS[0])
-
-  elif sys.argv[1] == SHEET_NAMES[1]:
-    convert_materials_opaque(SHEETS[1])
-
-def convert_tbd(sheet: Sheet) -> None:
+def convert_tbd(sheet: common.Sheet) -> None:
   columns = [
     "construction_type_name",
     "Wall Reference",
@@ -62,7 +21,7 @@ def convert_tbd(sheet: Sheet) -> None:
 
 
   dfs = []
-  df = pd.read_excel(SHEET_PATH, sheet_name = sheet.sheet_name, skiprows = 1)
+  df = pd.read_excel(common.SHEET_PATH, sheet_name = sheet.sheet_name, skiprows = 1)
   df.columns = columns
   df = df.ffill()
 
@@ -75,7 +34,7 @@ def convert_tbd(sheet: Sheet) -> None:
   for _, entry in df.iterrows():
     wall_reference    = entry["Wall Reference"]
     construction_name = entry["construction_type_name"]
-    construction_type = CONSTRUCTION_TYPE_MAP[construction_name[:construction_name.rindex("-")]]
+    construction_type = common.CONSTRUCTION_TYPE_MAP[construction_name[:construction_name.rindex("-")]]
 
     # Skip undefined constructions (for now only RoofCurbs)
     if not construction_type:
@@ -136,31 +95,11 @@ def convert_tbd(sheet: Sheet) -> None:
 
   df.to_csv(sheet.save_name, index = False)
 
-# Only convert the section that contains the new entries (from entry 156 onwards)
-# TODO: These values are only from Vancouver--how should we cost these for other cities?
-def convert_materials_opaque(sheet: Sheet) -> None:
-  columns = [
-    "materials_opaque_id",
-    "description",
-    "source",
-    "type",
-    "material_type",
-    "id",
-    "unit",
-    "quantity",
-    "material_mult",
-    "labour_mult",
-    "op_mult",
-    "eqpt"
-  ]
-
-  df = pd.read_excel(SHEET_PATH, sheet_name = sheet.sheet_name, skiprows = 1)
-
 def match_wall_type(name):
   # Match a type to a wall name and catch errors
 
   match_return = None
-  for match in WALL_TYPE_MAP.keys():
+  for match in common.WALL_TYPE_MAP.keys():
     if match in name:
       match_return = match
 
@@ -185,8 +124,7 @@ def format_subtypes(name: str, quality: str, match: str):
   if quality == "Fair" or quality == "Best":
     quality = "good"
 
-  return [f"{WALL_TYPE_MAP[match]}{subtype} {quality.lower()}" for subtype in subtypes]
-  
+  return [f"{common.WALL_TYPE_MAP[match]}{subtype} {quality.lower()}" for subtype in subtypes]
   
 if __name__ == "__main__":
   main()

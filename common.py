@@ -11,6 +11,8 @@ SHEETS = [
 SHEET_NAMES = list(map(lambda x: x.sheet_name, SHEETS))
 
 SHEET_PATH = "./data.xls"
+UFACTORS_CORRECT = "./ufactors_converted.json"
+THERMAL_BRIDGING_DATA = "./thermal_bridging_data.csv"
 
 # U-Factors defined by Denis to be validated against the excel data
 CORRECT_U_FACTORS = "./ufactors-converted.py"

@@ -1,0 +1,178 @@
+{
+  "BTAP-ExteriorWall-Mass-2 bad": {
+    "balcony": 1.0,
+    "corner": 0.15,
+    "door": 0.0,
+    "fenestration": 0.35,
+    "grade": 0.52,
+    "joint": 0.3,
+    "parapet": 0.5,
+    "party": 0.85,
+    "rimjoist": 0.47
+  },
+  "BTAP-ExteriorWall-Mass-2 good": {
+    "balcony": 0.2,
+    "corner": 0.09,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.09,
+    "joint": 0.1,
+    "parapet": 0.23,
+    "party": 0.2,
+    "rimjoist": 0.1
+  },
+  "BTAP-ExteriorWall-Mass-2b bad": {
+    "balcony": 1.0,
+    "corner": 0.15,
+    "door": 0.0,
+    "fenestration": 0.35,
+    "grade": 0.52,
+    "joint": 0.3,
+    "parapet": 0.5,
+    "party": 0.85,
+    "rimjoist": 0.47
+  },
+  "BTAP-ExteriorWall-Mass-2b good": {
+    "balcony": 0.2,
+    "corner": 0.09,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.09,
+    "joint": 0.1,
+    "parapet": 0.23,
+    "party": 0.2,
+    "rimjoist": 0.1
+  },
+  "BTAP-ExteriorWall-Mass-4 bad": {
+    "balcony": 1.0,
+    "corner": 0.37,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.8,
+    "joint": 0.3,
+    "parapet": 0.65,
+    "party": 0.85,
+    "rimjoist": 0.2
+  },
+  "BTAP-ExteriorWall-Mass-4 good": {
+    "balcony": 0.2,
+    "corner": 0.16,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.32,
+    "joint": 0.1,
+    "parapet": 0.24,
+    "party": 0.2,
+    "rimjoist": 0.02
+  },
+  "BTAP-ExteriorWall-Mass-8c bad": {
+    "balcony": 1.0,
+    "corner": 0.37,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.8,
+    "joint": 0.3,
+    "parapet": 0.65,
+    "party": 0.85,
+    "rimjoist": 0.2
+  },
+  "BTAP-ExteriorWall-Mass-8c good": {
+    "balcony": 0.2,
+    "corner": 0.16,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.32,
+    "joint": 0.1,
+    "parapet": 0.24,
+    "party": 0.2,
+    "rimjoist": 0.02
+  },
+  "BTAP-ExteriorWall-SteelFramed-1 bad": {
+    "balcony": 1.0,
+    "corner": 0.15,
+    "door": 0.0,
+    "fenestration": 0.27,
+    "grade": 0.72,
+    "joint": 0.3,
+    "parapet": 0.65,
+    "party": 0.85,
+    "rimjoist": 0.28
+  },
+  "BTAP-ExteriorWall-SteelFramed-1 good": {
+    "balcony": 0.2,
+    "corner": 0.09,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.47,
+    "joint": 0.1,
+    "parapet": 0.35,
+    "party": 0.2,
+    "rimjoist": 0.09
+  },
+  "BTAP-ExteriorWall-SteelFramed-2 bad": {
+    "balcony": 1.0,
+    "corner": 0.15,
+    "door": 0.0,
+    "fenestration": 0.27,
+    "grade": 0.72,
+    "joint": 0.3,
+    "parapet": 0.65,
+    "party": 0.85,
+    "rimjoist": 0.28
+  },
+  "BTAP-ExteriorWall-SteelFramed-2 good": {
+    "balcony": 0.2,
+    "corner": 0.09,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.47,
+    "joint": 0.1,
+    "parapet": 0.1,
+    "party": 0.2,
+    "rimjoist": 0.09
+  },
+  "BTAP-ExteriorWall-WoodFramed-5 bad": {
+    "balcony": 1.0,
+    "corner": 0.04,
+    "door": 0.0,
+    "fenestration": 0.27,
+    "grade": 0.55,
+    "joint": 0.3,
+    "parapet": 0.05,
+    "party": 0.85,
+    "rimjoist": 0.05
+  },
+  "BTAP-ExteriorWall-WoodFramed-5 good": {
+    "balcony": 0.2,
+    "corner": 0.04,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.09,
+    "joint": 0.1,
+    "parapet": 0.05,
+    "party": 0.2,
+    "rimjoist": 0.03
+  },
+  "BTAP-ExteriorWall-WoodFramed-7 bad": {
+    "balcony": 1.0,
+    "corner": 0.04,
+    "door": 0.0,
+    "fenestration": 0.27,
+    "grade": 0.55,
+    "joint": 0.3,
+    "parapet": 0.05,
+    "party": 0.85,
+    "rimjoist": 0.05
+  },
+  "BTAP-ExteriorWall-WoodFramed-7 good": {
+    "balcony": 0.2,
+    "corner": 0.04,
+    "door": 0.0,
+    "fenestration": 0.078,
+    "grade": 0.09,
+    "joint": 0.1,
+    "parapet": 0.05,
+    "party": 0.2,
+    "rimjoist": 0.03
+  }
+}

@@ -3,7 +3,9 @@ import re
 import pandas as pd
 
 SHEET_PATH = "./data.xls"
-OUT_PATH   = "./data.csv"
+
+# U-Factors defined by Denis to be validated against the excel data
+CORRECT_U_FACTORS = "./ufactors-converted.py"
 
 WALL_TYPE_MAP = {
   "MASS"         : "BTAP-ExteriorWall-Mass-",
@@ -13,14 +15,13 @@ WALL_TYPE_MAP = {
   "IEAD4"        : "BTAP-ExteriorRoof-Mass-" # this is a roof
 }
 
-# TODO: "jamb" is missing, also verify the non-convex values 
 CONSTRUCTION_TYPE_MAP = {
-  "BTAP-IntermediateFloorEdge" : "transition",
-  "BTAP-GlazingPerimeter"      : "sill",
-  "BTAP-Parapet"               : "parapetconvex",
-  "BTAP-RoofCurbs"             : "head",
-  "BTAP-Grade"                 : "gradeconvex",
-  "BTAP-Corner"                : "cornerconvex"
+  "BTAP-IntermediateFloorEdge" : "rimjoist",     # rim joist
+  "BTAP-GlazingPerimeter"      : "fenestration", # jamb (side), sill (bottom), head (top) (fenestration)
+  "BTAP-Parapet"               : "parapet",  
+  "BTAP-RoofCurbs"             : "", # Roof curbs currently aren't relevant.
+  "BTAP-Grade"                 : "grade",
+  "BTAP-Corner"                : "corner"
 }
 
 class Sheet:
@@ -29,8 +30,10 @@ class Sheet:
     self.save_name  = save_name
 
 SHEETS = [
-  Sheet("Thermal Bridging", "thermal_bridging_data.json")
+  Sheet("Thermal Bridging", "thermal_bridging_data.csv"),
+  Sheet("OpaqueMaterials", "materials_opaque.csv")
 ]
+
 SHEET_NAMES = list(map(lambda x: x.sheet_name, SHEETS))
 
 def main() -> None:
@@ -39,6 +42,9 @@ def main() -> None:
 
   elif sys.argv[1] == SHEET_NAMES[0]:
     convert_tbd(SHEETS[0])
+
+  elif sys.argv[1] == SHEET_NAMES[1]:
+    convert_materials_opaque(SHEETS[1])
 
 def convert_tbd(sheet: Sheet) -> None:
   columns = [
@@ -70,6 +76,11 @@ def convert_tbd(sheet: Sheet) -> None:
     wall_reference    = entry["Wall Reference"]
     construction_name = entry["construction_type_name"]
     construction_type = CONSTRUCTION_TYPE_MAP[construction_name[:construction_name.rindex("-")]]
+
+    # Skip undefined constructions (for now only RoofCurbs)
+    if not construction_type:
+      continue
+
     formatted_entries = []
 
     match = match_wall_type(wall_reference)
@@ -106,7 +117,8 @@ def convert_tbd(sheet: Sheet) -> None:
       "description_y"                  : [entry["description_y"]] * num_formatted,
       "u_w_per_m_k"                    : [entry["u_w_per_m_k"]]   * num_formatted,
       "material_opaque_id_layers"      : [entry["Material ID"]]   * num_formatted,
-      "id_layers_quantity_multipliers" : [entry["Multiplier"]]    * num_formatted 
+      "id_layers_quantity_multipliers" : [entry["Multiplier"]]    * num_formatted, 
+      "unit"                           : [entry["Unit"]]          * num_formatted, 
     }))
 
   df = pd.concat(dfs)
@@ -122,8 +134,28 @@ def convert_tbd(sheet: Sheet) -> None:
     "id_layers_quantity_multipliers" : lambda x: ",".join(map(str, x))
   })
 
-  df.to_csv(OUT_PATH, index = False)
-  
+  df.to_csv(sheet.save_name, index = False)
+
+# Only convert the section that contains the new entries (from entry 156 onwards)
+# TODO: These values are only from Vancouver--how should we cost these for other cities?
+def convert_materials_opaque(sheet: Sheet) -> None:
+  columns = [
+    "materials_opaque_id",
+    "description",
+    "source",
+    "type",
+    "material_type",
+    "id",
+    "unit",
+    "quantity",
+    "material_mult",
+    "labour_mult",
+    "op_mult",
+    "eqpt"
+  ]
+
+  df = pd.read_excel(SHEET_PATH, sheet_name = sheet.sheet_name, skiprows = 1)
+
 def match_wall_type(name):
   # Match a type to a wall name and catch errors
 
@@ -143,14 +175,13 @@ def format_subtypes(name: str, quality: str, match: str):
   # Retrieve alphanumeric suffixes associated with the construction types
   subtypes = re.findall(r"\d{1,2}[BC]?", name)
 
-  # TODO: Verify if this is true
   # SteelFramed-1 is not present in the spreadsheet but it should be equal to SteelFramed-2
   if "2" in subtypes:
     subtypes.append("1")
 
-  # TODO: Verify if this is correct
   # Spreadsheet has "Fair" and "Best" qualtiy specifiers but it seems only
   # "good" and "bad" exist in BTAP
+  # Denis: Fair should map to good, entries with "Best" can be ignored
   if quality == "Fair" or quality == "Best":
     quality = "good"
 

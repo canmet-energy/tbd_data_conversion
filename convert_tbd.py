@@ -2,10 +2,7 @@ import re
 import pandas as pd
 import common
 
-def main() -> None:
-  convert_tbd(common.SHEETS[0])
-
-def convert_tbd(sheet: common.Sheet) -> None:
+def convert_tbd():
   columns = [
     "construction_type_name",
     "Wall Reference",
@@ -21,7 +18,7 @@ def convert_tbd(sheet: common.Sheet) -> None:
 
 
   dfs = []
-  df = pd.read_excel(common.SHEET_PATH, sheet_name = sheet.sheet_name, skiprows = 1)
+  df = pd.read_excel(common.SHEET_DATA_PATH, sheet_name = "Thermal Bridging", skiprows = 1)
   df.columns = columns
   df = df.ffill()
 
@@ -93,7 +90,7 @@ def convert_tbd(sheet: common.Sheet) -> None:
     "id_layers_quantity_multipliers" : lambda x: ",".join(map(str, x))
   })
 
-  df.to_csv(sheet.save_name, index = False)
+  df.to_csv(common.THERMAL_BRIDGING_PATH, index = False)
 
 def match_wall_type(name):
   # Match a type to a wall name and catch errors
@@ -125,6 +122,5 @@ def format_subtypes(name: str, quality: str, match: str):
     quality = "good"
 
   return [f"{common.WALL_TYPE_MAP[match]}{subtype} {quality.lower()}" for subtype in subtypes]
-  
-if __name__ == "__main__":
-  main()
+
+convert_tbd()

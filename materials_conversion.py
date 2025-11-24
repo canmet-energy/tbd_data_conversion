@@ -23,7 +23,7 @@ def convert_materials_opaque(sheet: common.Sheet) -> None:
     "eqpt"
   ]
 
-  df = pd.read_excel(common.SHEET_PATH, sheet_name = sheet.sheet_name, skiprows = 1)
+  df = pd.read_excel(common.SHEET_DATA_PATH, sheet_name = sheet.sheet_name, skiprows = 1)
 
 if __name__ == "__main__":
   main()

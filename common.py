@@ -1,21 +1,8 @@
-class Sheet:
-  def __init__(self, sheet_name, save_name):
-    self.sheet_name = sheet_name
-    self.save_name  = save_name
-
-SHEETS = [
-  Sheet("Thermal Bridging", "thermal_bridging_data.csv"),
-  Sheet("OpaqueMaterials", "materials_opaque.csv")
-]
-
-SHEET_NAMES = list(map(lambda x: x.sheet_name, SHEETS))
-
-SHEET_PATH = "./data.xls"
-UFACTORS_CORRECT = "./ufactors_converted.json"
-THERMAL_BRIDGING_DATA = "./thermal_bridging_data.csv"
-
-# U-Factors defined by Denis to be validated against the excel data
-CORRECT_U_FACTORS = "./ufactors-converted.py"
+SHEET_DATA_PATH       = "./data.xls"
+UFACTORS_CORRECT_PATH = "./ufactors_converted.json"
+THERMAL_BRIDGING_PATH = "./thermal_bridging_data.csv"
+OPAQUE_PATH           = "./materials_opaque.csv"
+GLAZING_PATH          = "./materials_glazing.csv"
 
 WALL_TYPE_MAP = {
   "MASS"         : "BTAP-ExteriorWall-Mass-",

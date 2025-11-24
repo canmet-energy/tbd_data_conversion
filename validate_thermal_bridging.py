@@ -2,8 +2,8 @@ import csv
 import json
 import common
 
-tbd_data_path      = common.THERMAL_BRIDGING_DATA # CSV file to validate against
-ufactors_data_path = common.UFACTORS_CORRECT # JSON file that has the correct data
+tbd_data_path      = common.THERMAL_BRIDGING_PATH # CSV file to validate against
+ufactors_data_path = common.UFACTORS_CORRECT_PATH # JSON file that has the correct data
 
 with open(tbd_data_path) as csv_file:
   with open(ufactors_data_path) as json_file:

@@ -19,6 +19,7 @@ def convert_materials() -> None:
   ]
 
   empty_glazing_columns = [
+    "catalog_id",
     "equipment_cost",
     "material_op_factor",
     "labour_op_factor",

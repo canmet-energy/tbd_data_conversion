@@ -1,27 +1,27 @@
-materials_glazing_id,source,type,material_type,catalog_id,id,description,unit,province-state,city,year,material_cost,labour_cost,material_mult,labour_mult,op_mult,U_W_per_m2-K,fenestration_type,fenestration_assembly_context,fenestration_number_of_panes
-35,Supplier,Assembly,glazing,,8,"kawneer 1600 UT System 1, 1"" glass, warm edge spacer, U=1.81W/m2K",ft2,British Columbia,Vancouver,2022,130.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
-36,Supplier,Assembly,glazing,,8,"kawneer 1600 UT System 1, triple glazed, 1"" glass, warm edge spacer, U=1.25 W/m2K",ft2,British Columbia,Vancouver,2022,150.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
-37,Supplier,Assembly,glazing,,8,"Starline 9600 Window wall, double glazed, 1 low-e and argon illed IGU  U=1.83 W/m2K",ft2,British Columbia,Vancouver,2022,110.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
-38,Supplier,Assembly,glazing,,8,"Starline 9600 Window wall, triple glazed, 2x low-e and argon filled IGU  U=1.01W/m2K",ft2,British Columbia,Vancouver,2022,135.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
-39,Supplier,Assembly,glazing,,8,"Starline 7100 double glazed, 1/2"" aluminum spacer bar, no low-e, air filled IGU, U<2.1",ft2,British Columbia,Vancouver,2022,55.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
-40,Supplier,Assembly,glazing,,8,"Starline 7100 double glazed, 1/2"" aluminum spacer bar, 1x low-e, argon filled IGU, U=1.59 w/m2K",ft2,British Columbia,Vancouver,2022,60.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
-41,Supplier,Assembly,glazing,,8,"Starline 7100 double glazed, 13.6mm WE Spacer, 2x low-e, argon filled IGU, U=1.25W/m2K",ft2,British Columbia,Vancouver,2022,68.5,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
-42,Supplier,Assembly,glazing,,8,"wood finished look vinyl, Innotech Defender 76TS double Glazed, U=1.4W/m2K",ft2,British Columbia,Vancouver,2022,65.0,20,1.0,1.0,0.0,,OperableWindow,Manufactured,Double Pane
-43,Supplier,Assembly,glazing,,8,"wood finished look vinyl, Innotech Defender 88PH Pro, triple glazed, U=0.76W/m2K",ft2,British Columbia,Vancouver,2022,105.0,20,1.0,1.0,0.0,,OperableWindow,Manufactured,Triple Pane
-44,Supplier,Assembly,glazing,,8,"Kawneer 451 UT System, U=1.7 W/m2K, or Alumicor FlushGlaze 3400, triple glazed U=1.53 W/m2K",ft2,British Columbia,Vancouver,2022,130.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
-45,Supplier,Assembly,glazing,,8,"Fixed window Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K",ft2,British Columbia,Vancouver,2022,55.0,14,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
-46,Supplier,Assembly,glazing,,8,"Fixed window Cascadia Universal Series, triple glazed, 3x low-e coatings, tri-seal spacer, U=0.77W/m2K",ft2,British Columbia,Vancouver,2022,65.0,16,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
-47,Supplier,Assembly,glazing,,8,"Starline 4500 T, double glazed, 1 low-e coating, argon filled IG & TGI Spacer, U=2.29W/m2K",ft2,British Columbia,Vancouver,2022,100.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
-48,Supplier,Assembly,glazing,,8,"Reynaers Aluminum CP 155-LS, double glazed, U=1.7 W/m2K",ft2,British Columbia,Vancouver,2022,165.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
-49,Supplier,Assembly,glazing,,8,"Reynaers Aluminum CP 155-LS, triple glazed, U=1.2 W/m2K",ft2,British Columbia,Vancouver,2022,210.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Triple Pane
-50,Supplier,Assembly,glazing,,8,"Starline 9502 double glazed swing door, low-e coating, argon filled IGU, TGI Spacer, U=2.36W/m2K",ft2,British Columbia,Vancouver,2022,140.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
-51,Supplier,Assembly,glazing,,8,"Reynaers Aluminum Masterline 8, double glazed, U=1.42 W/m2K",ft2,British Columbia,Vancouver,2022,305.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
-52,Supplier,Assembly,glazing,,8,"Reynaers Aluminum Masterline 10, triple glazed, U=0.9 W/m2K",ft2,British Columbia,Vancouver,2022,245.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Triple Pane
-53,Supplier,Assembly,glazing,,8,"Swing door Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K",ft2,British Columbia,Vancouver,2022,155.0,14,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
-54,Supplier,Assembly,glazing,,8,"Swing door Cascadia Universal Series, triple glazed, 3x low-e coatings, tri-seal spacer, U=0.77W/m2K",ft2,British Columbia,Vancouver,2022,164.0,16,1.0,1.0,0.0,,GlazedDoor,Manufactured,Triple Pane
-55,Supplier,Assembly,glazing,,8,"Kawneer 2000, pressure plate glazing or SSG system, double glazed 1 low-e ",ft2,British Columbia,Vancouver,2022,140.0,0,1.0,1.0,0.0,,GlassSkylightwithCurb,Manufactured,Double Pane
-56,Supplier,Assembly,glazing,,8,"wood finished look vinyl, Innotech Defender 76TS triple Glazed, U=0.92W/m2K",ft2,British Columbia,Vancouver,2022,72.0,20,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
-57,Supplier,Assembly,glazing,,8,upcharge for glazing Low-e films- within IGU,ft2,British Columbia,Vancouver,2022,10.0,0,,,,,,,
-58,Supplier,Assembly,glazing,,8,upcharge for glazing Low-e films- hard coat interior pane,ft2,British Columbia,Vancouver,2022,6.0,0,,,,,,,
-59,Supplier,Assembly,glazing,,8,upcharge to triple glazing from double glazing,ft2,British Columbia,Vancouver,2022,50.0,0,,,,,,,
-60,Supplier,Assembly,glazing,,8,upcharge to structural design upgrades to glazing frames to suit quad glazing (15% upcharge),ft2,British Columbia,Vancouver,2022,21.0,0,,,,,,,
+materials_glazing_id,source,type,material_type,id,description,unit,province-state,city,year,material_cost,labour_cost,material_mult,labour_mult,op_mult,U_W_per_m2-K,fenestration_type,fenestration_assembly_context,fenestration_number_of_panes
+35,Supplier,Assembly,glazing,8,"kawneer 1600 UT System 1, 1"" glass, warm edge spacer, U=1.81W/m2K",ft2,British Columbia,Vancouver,2022,130.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
+36,Supplier,Assembly,glazing,8,"kawneer 1600 UT System 1, triple glazed, 1"" glass, warm edge spacer, U=1.25 W/m2K",ft2,British Columbia,Vancouver,2022,150.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
+37,Supplier,Assembly,glazing,8,"Starline 9600 Window wall, double glazed, 1 low-e and argon illed IGU  U=1.83 W/m2K",ft2,British Columbia,Vancouver,2022,110.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
+38,Supplier,Assembly,glazing,8,"Starline 9600 Window wall, triple glazed, 2x low-e and argon filled IGU  U=1.01W/m2K",ft2,British Columbia,Vancouver,2022,135.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
+39,Supplier,Assembly,glazing,8,"Starline 7100 double glazed, 1/2"" aluminum spacer bar, no low-e, air filled IGU, U<2.1",ft2,British Columbia,Vancouver,2022,55.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
+40,Supplier,Assembly,glazing,8,"Starline 7100 double glazed, 1/2"" aluminum spacer bar, 1x low-e, argon filled IGU, U=1.59 w/m2K",ft2,British Columbia,Vancouver,2022,60.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
+41,Supplier,Assembly,glazing,8,"Starline 7100 double glazed, 13.6mm WE Spacer, 2x low-e, argon filled IGU, U=1.25W/m2K",ft2,British Columbia,Vancouver,2022,68.5,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
+42,Supplier,Assembly,glazing,8,"wood finished look vinyl, Innotech Defender 76TS double Glazed, U=1.4W/m2K",ft2,British Columbia,Vancouver,2022,65.0,20,1.0,1.0,0.0,,OperableWindow,Manufactured,Double Pane
+43,Supplier,Assembly,glazing,8,"wood finished look vinyl, Innotech Defender 88PH Pro, triple glazed, U=0.76W/m2K",ft2,British Columbia,Vancouver,2022,105.0,20,1.0,1.0,0.0,,OperableWindow,Manufactured,Triple Pane
+44,Supplier,Assembly,glazing,8,"Kawneer 451 UT System, U=1.7 W/m2K, or Alumicor FlushGlaze 3400, triple glazed U=1.53 W/m2K",ft2,British Columbia,Vancouver,2022,130.0,0,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
+45,Supplier,Assembly,glazing,8,"Fixed window Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K",ft2,British Columbia,Vancouver,2022,55.0,14,1.0,1.0,0.0,,FixedWindow,Manufactured,Double Pane
+46,Supplier,Assembly,glazing,8,"Fixed window Cascadia Universal Series, triple glazed, 3x low-e coatings, tri-seal spacer, U=0.77W/m2K",ft2,British Columbia,Vancouver,2022,65.0,16,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
+47,Supplier,Assembly,glazing,8,"Starline 4500 T, double glazed, 1 low-e coating, argon filled IG & TGI Spacer, U=2.29W/m2K",ft2,British Columbia,Vancouver,2022,100.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
+48,Supplier,Assembly,glazing,8,"Reynaers Aluminum CP 155-LS, double glazed, U=1.7 W/m2K",ft2,British Columbia,Vancouver,2022,165.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
+49,Supplier,Assembly,glazing,8,"Reynaers Aluminum CP 155-LS, triple glazed, U=1.2 W/m2K",ft2,British Columbia,Vancouver,2022,210.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Triple Pane
+50,Supplier,Assembly,glazing,8,"Starline 9502 double glazed swing door, low-e coating, argon filled IGU, TGI Spacer, U=2.36W/m2K",ft2,British Columbia,Vancouver,2022,140.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
+51,Supplier,Assembly,glazing,8,"Reynaers Aluminum Masterline 8, double glazed, U=1.42 W/m2K",ft2,British Columbia,Vancouver,2022,305.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
+52,Supplier,Assembly,glazing,8,"Reynaers Aluminum Masterline 10, triple glazed, U=0.9 W/m2K",ft2,British Columbia,Vancouver,2022,245.0,0,1.0,1.0,0.0,,GlazedDoor,Manufactured,Triple Pane
+53,Supplier,Assembly,glazing,8,"Swing door Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K",ft2,British Columbia,Vancouver,2022,155.0,14,1.0,1.0,0.0,,GlazedDoor,Manufactured,Double Pane
+54,Supplier,Assembly,glazing,8,"Swing door Cascadia Universal Series, triple glazed, 3x low-e coatings, tri-seal spacer, U=0.77W/m2K",ft2,British Columbia,Vancouver,2022,164.0,16,1.0,1.0,0.0,,GlazedDoor,Manufactured,Triple Pane
+55,Supplier,Assembly,glazing,8,"Kawneer 2000, pressure plate glazing or SSG system, double glazed 1 low-e ",ft2,British Columbia,Vancouver,2022,140.0,0,1.0,1.0,0.0,,GlassSkylightwithCurb,Manufactured,Double Pane
+56,Supplier,Assembly,glazing,8,"wood finished look vinyl, Innotech Defender 76TS triple Glazed, U=0.92W/m2K",ft2,British Columbia,Vancouver,2022,72.0,20,1.0,1.0,0.0,,FixedWindow,Manufactured,Triple Pane
+57,Supplier,Assembly,glazing,8,upcharge for glazing Low-e films- within IGU,ft2,British Columbia,Vancouver,2022,10.0,0,,,,,,,
+58,Supplier,Assembly,glazing,8,upcharge for glazing Low-e films- hard coat interior pane,ft2,British Columbia,Vancouver,2022,6.0,0,,,,,,,
+59,Supplier,Assembly,glazing,8,upcharge to triple glazing from double glazing,ft2,British Columbia,Vancouver,2022,50.0,0,,,,,,,
+60,Supplier,Assembly,glazing,8,upcharge to structural design upgrades to glazing frames to suit quad glazing (15% upcharge),ft2,British Columbia,Vancouver,2022,21.0,0,,,,,,,

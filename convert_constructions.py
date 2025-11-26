@@ -31,6 +31,7 @@ def convert_constructions() -> None:
       
       df["construction_type_name"] = df["construction_type_name"].ffill()
       df["description_x"]          = df["description_x"].ffill()
+      df["u_w_per_m2_k"]           = df["u_w_per_m2_k"].ffill()
       df["u_w_per_m2_k"]           = df["u_w_per_m2_k"].round(3)
       
       # All empty IDs column are from windows which refer to the fiberglass
@@ -39,9 +40,9 @@ def convert_constructions() -> None:
       df_empty_ids = df[df[id_column].isnull()]
       if not df_empty_ids.empty:
         print(f"Empty ID indices for {sheet_name}: {list(df_empty_ids.index)}\n", file = qaqc_file)
-        if sheet_name == "ExteriorWindow"
+        if sheet_name == "ExteriorWindow":
           psi_map = FIBREGLASS_WINDOW_PSI_MAP
-        elif sheet_name == "GlassDoor"
+        elif sheet_name == "GlassDoor":
           psi_map = FIBRELGASS_DOOR_MAP
         else:
           raise Exception("You should not be here exception")

@@ -7,6 +7,7 @@ CONSTRUCTION_PAIRS    = [
   ("DOORS",          "./constructions_door.json"),
   ("EXPFLOOR",       "./constructions_floor.json"),
   ("WALLS",          "./constructions_wall.json"),
+  ("ROOF",           "./constructions_roof.json"),
   ("ExteriorWindow", "./constructions_window.json"),
   ("GlassDoor",      "./constructions_door_glass.json"),
   ("Skylight",       "./constructions_skylight.json")
@@ -34,7 +35,8 @@ CONSTRUCTION_ID_MAP = {
   "DOORS"          : "material_opaque_id_layers",
   "EXPFLOOR"       : "material_opaque_id_layers",
   "WALLS"          : "material_opaque_id_layers",
+  "ROOF"           : "material_opaque_id_layers",
   "ExteriorWindow" : "material_glazing_id_layers",
   "GlassDoor"      : "material_glazing_id_layers",
-  "Skylight"       : "material_glazing_id_layers",
+  "Skylight"       : "material_glazing_id_layers"
 }

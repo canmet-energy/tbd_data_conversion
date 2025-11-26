@@ -30,3 +30,11 @@ CONSTRUCTION_TYPE_MAP = {
   "BTAP-Corner"                : "corner"
 }
 
+CONSTRUCTION_ID_MAP = {
+  "DOORS"          : "material_opaque_id_layers",
+  "EXPFLOOR"       : "material_opaque_id_layers",
+  "WALLS"          : "material_opaque_id_layers",
+  "ExteriorWindow" : "material_glazing_id_layers",
+  "GlassDoor"      : "material_glazing_id_layers",
+  "Skylight"       : "material_glazing_id_layers",
+}

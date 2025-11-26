@@ -67,7 +67,7 @@ def convert_tbd():
     num_formatted = len(formatted_entries)
     dfs.append(pd.DataFrame(data = {
       "construction_name"              : [construction_name]      * num_formatted,
-      "construction_type"              : [construction_type]      * num_formatted,
+      "edge_type"                      : [construction_type]      * num_formatted,
       "wall_reference"                 : formatted_entries,
       "description_x"                  : [entry["description_x"]] * num_formatted,
       "description_y"                  : [entry["description_y"]] * num_formatted,
@@ -82,7 +82,7 @@ def convert_tbd():
   # ID Layers and multipliers need to be in the same row, find duplicates and
   # merge them
   df = df.groupby(
-    ["construction_name", "construction_type", "wall_reference", "description_x", "description_y", "u_w_per_m_k"],
+    ["construction_name", "edge_type", "wall_reference", "description_x", "description_y", "u_w_per_m_k"],
     as_index=False,
     sort=False
   ).agg({

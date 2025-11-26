@@ -1,0 +1,15 @@
+construction_type_name,description_x,u_w_per_m2_k,material_glazing_id_layers,description_y
+BTAP-Skylight-1,Plastic Skylight,2.4,25,"46"" x 46"" nonventing insulated plexiglass domes skylight, curb mount"
+BTAP-Skylight-1,Plastic Skylight,1.6,27,"46"" x 46"" nonventing insulated plexiglass domes skylight, curb mount"
+BTAP-Skylight-2,Glass Skylight,2.4,26,"33.5"" x 33.5"" fixed glass skylight with aluminum curb"
+BTAP-Skylight-2,Glass Skylight,1.6,28,"33.5"" x 33.5"" fixed glass skylight with aluminum curb"
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,2.4,55,"Kawneer 2000, pressure plate glazing or SSG system, U=2.3 W/m2K"
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.9,55,"Kawneer 2000, pressure plate glazing or SSG system, U=1.9 W/m2K"
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.9,59,upcharge to triple glazing
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.9,57,additional inner coating
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.6,55,"Kawneer 2000, pressure plate glazing or SSG system, U=1.6 W/m2K"
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.6,59,upcharge to triple glazing
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.6,59,upcharge to quad glazing from triple
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.6,57,additional inner coating
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.6,57,additional inner coating
+BTAP-Skylight-3,Glass Curtain Wall Frame Skylight,1.6,60,additional structural requirements/design

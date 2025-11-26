@@ -20,7 +20,7 @@ def convert_tbd():
   dfs = []
   df = pd.read_excel(common.SHEET_DATA_PATH, sheet_name = "Thermal Bridging", skiprows = 1)
   df.columns = columns
-  df = df.ffill()
+  df.ffill(inplace = True)
 
   # Reformat column B to match the way the materials are spelled in BTAP
   # Example: 

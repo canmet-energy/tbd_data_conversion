@@ -1,0 +1,4 @@
+Empty ID indices for ExteriorWindow: [8, 19, 31, 51, 52, 53]
+
+Empty ID indices for GlassDoor: [13, 21]
+

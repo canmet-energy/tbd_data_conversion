@@ -29,33 +29,36 @@ def convert_constructions() -> None:
       df = pd.read_excel(common.SHEET_DATA_PATH, sheet_name = sheet_name)
       id_column = CONSTRUCTION_ID_MAP[sheet_name]
       
-      # Forward fill construction type and PSI
       df["construction_type_name"] = df["construction_type_name"].ffill()
-      df["u_w_per_m2_k"] = df["u_w_per_m2_k"].ffill()
+      df["description_x"]          = df["description_x"].ffill()
+      df["u_w_per_m2_k"]           = df["u_w_per_m2_k"].round(3)
       
-      # Handle empty IDs (fibreglass windows/doors)
+      # All empty IDs column are from windows which refer to the fiberglass
+      # window. Assuming the PSI values of these empty layers should map
+      # directly to the fibreglass window.
       df_empty_ids = df[df[id_column].isnull()]
       if not df_empty_ids.empty:
         print(f"Empty ID indices for {sheet_name}: {list(df_empty_ids.index)}\n", file = qaqc_file)
-        psi_map = FIBREGLASS_WINDOW_PSI_MAP if sheet_name == "ExteriorWindow" else FIBRELGASS_DOOR_MAP if sheet_name == "GlassDoor" else None
+        if sheet_name == "ExteriorWindow"
+          psi_map = FIBREGLASS_WINDOW_PSI_MAP
+        elif sheet_name == "GlassDoor"
+          psi_map = FIBRELGASS_DOOR_MAP
+        else:
+          raise Exception("You should not be here exception")
+
         if psi_map:
-          for psi, (mat_id, desc) in psi_map.items():
+          for psi, (material_id, description) in psi_map.items():
             mask = df_empty_ids["u_w_per_m2_k"] == psi
-            df.loc[df_empty_ids[mask].index, id_column] = mat_id
-            df.loc[df_empty_ids[mask].index, "description_y"] = desc
+            df.loc[df_empty_ids[mask].index, id_column] = material_id
+            df.loc[df_empty_ids[mask].index, "description_y"] = description
       
-      # Set MultiIndex
       df = df.set_index(["construction_type_name", "u_w_per_m2_k"])
-      
-      # Build JSON structure
       json_data = {}
       for (construction, psi), group in df.groupby(level=[0, 1]):
         if construction not in json_data:
-          json_data[construction] = {
-            "description": group.iloc[0]["description_x"],
-            "psi": {}
-          }
+          json_data[construction] = {"psi": {}}
         json_data[construction]["psi"][psi] = {
+          "description": group.iloc[0]["description_x"],
           id_column: [
             {"id": int(row[id_column]), "description": row["description_y"]}
             for _, row in group.iterrows()

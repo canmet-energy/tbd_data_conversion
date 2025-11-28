@@ -2,8 +2,6 @@ import pandas as pd
 import json
 import common
 
-
-
 FIBREGLASS_WINDOW_PSI_MAP = {
   1.44 : (45, "Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K"),
   1.4  : (45, "Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K"),
@@ -27,17 +25,21 @@ def convert_constructions() -> None:
       df["u_w_per_m2_k"]           = df["u_w_per_m2_k"].ffill()
       df["u_w_per_m2_k"]           = df["u_w_per_m2_k"].round(3)
       
-      # All empty IDs column are from windows which refer to the fiberglass
-      # window. Assuming the PSI values of these empty layers should map
-      # directly to the fibreglass window.
+      # All empty ID entries except from BG-ROOF are from windows which refer 
+      # to the fiberglass window. Assuming the PSI values of these empty layers
+      # should map directly to the fibreglass window.
       df_empty_ids = df[df[id_column].isnull()]
+      psi_map = None
       if not df_empty_ids.empty:
         print(f"Empty ID indices for {sheet_name}: {list(df_empty_ids.index)}\n", file = qaqc_file)
         if sheet_name == "ExteriorWindow":
           psi_map = FIBREGLASS_WINDOW_PSI_MAP
         elif sheet_name == "GlassDoor":
           psi_map = FIBRELGASS_DOOR_MAP
+        elif sheet_name == "BG-ROOF":
+          df.drop(df_empty_ids.index, inplace = True)
         else:
+          # import IPython; IPython.embed(); exit()
           raise Exception("You should not be here exception")
 
         if psi_map:
@@ -48,9 +50,9 @@ def convert_constructions() -> None:
       
       df = df.set_index(["construction_type_name", "u_w_per_m2_k"])
       json_data = {}
-      for (construction, psi), group in df.groupby(level=[0, 1]):
+      for (construction, psi), group in df.groupby(level = [0, 1]):
         if construction not in json_data:
-          json_data[construction] = {"psi": {}}
+          json_data[construction] = {"psi" : {}}
         json_data[construction]["psi"][psi] = {
           "description": group.iloc[0]["description_x"],
           id_column: [

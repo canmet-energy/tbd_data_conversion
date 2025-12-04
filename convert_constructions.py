@@ -2,6 +2,19 @@ import pandas as pd
 import json
 import common
 
+CONSTRUCTION_ID_MAP = {
+  "DOORS"          : "material_opaque_id_layers",
+  "EXPFLOOR"       : "material_opaque_id_layers",
+  "WALLS"          : "material_opaque_id_layers",
+  "BG-WALL"        : "material_opaque_id_layers",
+  "ROOF"           : "material_opaque_id_layers",
+  "BG-ROOF"        : "material_opaque_id_layers",
+  "SLAB"           : "material_opaque_id_layers",
+  "ExteriorWindow" : "material_glazing_id_layers",
+  "GlassDoor"      : "material_glazing_id_layers",
+  "Skylight"       : "material_glazing_id_layers",
+}
+
 FIBREGLASS_WINDOW_PSI_MAP = {
   1.44 : (45, "Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K"),
   1.4  : (45, "Cascadia Universal Series, double glazed, 2x low-e coatings, Stainless Steel Spacer, U=1.13W/m2K"),
@@ -18,7 +31,7 @@ def convert_constructions() -> None:
   with open(common.CONSTRUCTION_QAQC, "w") as qaqc_file:
     for sheet_name, file_name in common.CONSTRUCTION_PAIRS:
       df = pd.read_excel(common.SHEET_DATA_PATH, sheet_name = sheet_name)
-      id_column = common.CONSTRUCTION_ID_MAP[sheet_name]
+      id_column = CONSTRUCTION_ID_MAP[sheet_name]
       
       df["construction_type_name"] = df["construction_type_name"].ffill()
       df["description_x"]          = df["description_x"].ffill()
@@ -55,10 +68,7 @@ def convert_constructions() -> None:
           json_data[construction] = {"psi" : {}}
         json_data[construction]["psi"][psi] = {
           "description": group.iloc[0]["description_x"],
-          id_column: [
-            {"id": int(row[id_column]), "description": row["description_y"]}
-            for _, row in group.iterrows()
-          ]
+          id_column: [int(row[id_column]) for _, row in group.iterrows()]
         }
       
       with open(file_name, "w") as file:

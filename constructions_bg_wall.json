@@ -3,7 +3,7 @@
         "psi": {
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -14,7 +14,7 @@
             },
             "0.284": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -31,7 +31,7 @@
             },
             "0.379": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -42,7 +42,7 @@
             },
             "0.568": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -57,7 +57,7 @@
         "psi": {
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -70,7 +70,7 @@
             },
             "0.284": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -84,7 +84,7 @@
             },
             "0.379": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -98,7 +98,7 @@
             },
             "0.568": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,

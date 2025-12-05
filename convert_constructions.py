@@ -68,7 +68,7 @@ def convert_constructions() -> None:
           json_data[construction] = {"psi" : {}}
         json_data[construction]["psi"][psi] = {
           "description": group.iloc[0]["description_x"],
-          id_column: [int(row[id_column]) for _, row in group.iterrows()]
+          "id_layers": [int(row[id_column]) for _, row in group.iterrows()]
         }
       
       with open(file_name, "w") as file:

@@ -3,13 +3,13 @@
         "psi": {
             "1.6": {
                 "description": "Plastic Skylight",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     27
                 ]
             },
             "2.4": {
                 "description": "Plastic Skylight",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     25
                 ]
             }
@@ -19,13 +19,13 @@
         "psi": {
             "1.6": {
                 "description": "Glass Skylight",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     28
                 ]
             },
             "2.4": {
                 "description": "Glass Skylight",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     26
                 ]
             }
@@ -35,7 +35,7 @@
         "psi": {
             "1.6": {
                 "description": "Glass Curtain Wall Frame Skylight",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     55,
                     59,
                     59,
@@ -46,7 +46,7 @@
             },
             "1.9": {
                 "description": "Glass Curtain Wall Frame Skylight",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     55,
                     59,
                     57
@@ -54,7 +54,7 @@
             },
             "2.4": {
                 "description": "Glass Curtain Wall Frame Skylight",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     55
                 ]
             }

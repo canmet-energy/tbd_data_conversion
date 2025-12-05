@@ -3,7 +3,7 @@
         "psi": {
             "0.21": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     85,
                     109,
                     110,
@@ -17,7 +17,7 @@
             },
             "0.284": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     42,
                     109,
                     110,
@@ -40,7 +40,7 @@
             },
             "0.379": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     80,
                     109,
                     110,
@@ -54,7 +54,7 @@
             },
             "0.568": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Exterior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     40,
                     109,
                     110,
@@ -72,7 +72,7 @@
         "psi": {
             "0.21": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     110,
                     111,
                     112,
@@ -87,7 +87,7 @@
             },
             "0.284": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     110,
                     111,
                     112,
@@ -102,7 +102,7 @@
             },
             "0.379": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     110,
                     111,
                     112,
@@ -117,7 +117,7 @@
             },
             "0.568": {
                 "description": "Cast in Place Concrete Slab Roof , 7.5\" thick, 200 PSI with Interior Insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     110,
                     111,
                     112,

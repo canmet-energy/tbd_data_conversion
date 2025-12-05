@@ -3,7 +3,7 @@
         "psi": {
             "0.183": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Insulated 2 x 6 Wooden Stud Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     138,
                     3,
@@ -19,7 +19,7 @@
             },
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Insulated 2 x 6 Wooden Stud Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     138,
                     3,
@@ -35,7 +35,7 @@
             },
             "0.247": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Insulated 2 x 6 Wooden Stud Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     138,
                     3,
@@ -51,7 +51,7 @@
             },
             "0.278": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Insulated 2 x 6 Wooden Stud Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     138,
                     3,
@@ -68,7 +68,7 @@
             },
             "0.314": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Insulated 2 x 6 Wooden Stud Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     138,
                     3,
@@ -88,7 +88,7 @@
         "psi": {
             "0.1": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -105,7 +105,7 @@
             },
             "0.13": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -122,7 +122,7 @@
             },
             "0.183": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -138,7 +138,7 @@
             },
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -154,7 +154,7 @@
             },
             "0.247": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -174,7 +174,7 @@
         "psi": {
             "0.1": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish no interior insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     24,
@@ -193,7 +193,7 @@
             },
             "0.13": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish no interior insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     201,
                     24,
@@ -212,7 +212,7 @@
             },
             "0.183": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish no interior insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     201,
                     24,
@@ -230,7 +230,7 @@
             },
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish no interior insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     201,
                     24,
@@ -248,7 +248,7 @@
             },
             "0.247": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish no interior insulation",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     201,
                     24,
@@ -270,7 +270,7 @@
         "psi": {
             "0.08": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish with Interior Sprayfoam",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     160,
@@ -290,7 +290,7 @@
             },
             "0.1": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish with Interior Sprayfoam",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     160,
@@ -310,7 +310,7 @@
             },
             "0.13": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish with Interior Sprayfoam",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     160,
@@ -329,7 +329,7 @@
             },
             "0.183": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish with Interior Sprayfoam",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     160,
@@ -348,7 +348,7 @@
             },
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted, Exterior Insulated with Metal Panel Cladding, Interior Gypsum finish with Interior Sprayfoam",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     160,
@@ -371,7 +371,7 @@
         "psi": {
             "0.183": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -386,7 +386,7 @@
             },
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -401,7 +401,7 @@
             },
             "0.247": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -416,7 +416,7 @@
             },
             "0.278": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -431,7 +431,7 @@
             },
             "0.314": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -450,7 +450,7 @@
         "psi": {
             "0.1": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall, with interior steel studs, sprayfoam, and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     24,
@@ -462,7 +462,7 @@
             },
             "0.13": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall, with interior steel studs, sprayfoam, and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     24,
@@ -474,7 +474,7 @@
             },
             "0.183": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall, with interior steel studs, sprayfoam, and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     24,
@@ -491,7 +491,7 @@
         "psi": {
             "0.183": {
                 "description": "Tilt-up Concrete Wall, 10\" thick with Interior Insulated Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -511,7 +511,7 @@
             },
             "0.21": {
                 "description": "Tilt-up Concrete Wall, 10\" thick with Interior Insulated Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -531,7 +531,7 @@
             },
             "0.247": {
                 "description": "Tilt-up Concrete Wall, 10\" thick with Interior Insulated Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -551,7 +551,7 @@
             },
             "0.278": {
                 "description": "Tilt-up Concrete Wall, 10\" thick with Interior Insulated Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -571,7 +571,7 @@
             },
             "0.314": {
                 "description": "Tilt-up Concrete Wall, 10\" thick with Interior Insulated Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -594,7 +594,7 @@
         "psi": {
             "0.183": {
                 "description": "Precast Concrete Wall, 6\" thick with Interior Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     49,
@@ -604,7 +604,7 @@
             },
             "0.21": {
                 "description": "Precast Concrete Wall, 6\" thick with Interior Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -615,7 +615,7 @@
             },
             "0.247": {
                 "description": "Precast Concrete Wall, 6\" thick with Interior Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -626,7 +626,7 @@
             },
             "0.278": {
                 "description": "Precast Concrete Wall, 6\" thick with Interior Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     69,
@@ -637,7 +637,7 @@
             },
             "0.314": {
                 "description": "Precast Concrete Wall, 6\" thick with Interior Wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -652,7 +652,7 @@
         "psi": {
             "0.183": {
                 "description": "Poured Concrete Wall, 6\" thick with interior finished wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -666,7 +666,7 @@
             },
             "0.21": {
                 "description": "Poured Concrete Wall, 6\" thick with interior finished wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -680,7 +680,7 @@
             },
             "0.247": {
                 "description": "Poured Concrete Wall, 6\" thick with interior finished wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -694,7 +694,7 @@
             },
             "0.278": {
                 "description": "Poured Concrete Wall, 6\" thick with interior finished wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -708,7 +708,7 @@
             },
             "0.314": {
                 "description": "Poured Concrete Wall, 6\" thick with interior finished wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -726,7 +726,7 @@
         "psi": {
             "0.183": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -741,7 +741,7 @@
             },
             "0.21": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -756,7 +756,7 @@
             },
             "0.247": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -771,7 +771,7 @@
             },
             "0.278": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -786,7 +786,7 @@
             },
             "0.314": {
                 "description": "Concrete Block Wall, Regular Weight 6 x 8 x 16 Hollow Core, 2000 PSI, Reinforced and Grouted with Exterior Brick veneer wall ",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     24,
                     25,
                     26,
@@ -805,7 +805,7 @@
         "psi": {
             "0.183": {
                 "description": " Precast Concrete Wall With interior insulation & gypsum finish ",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     168,
@@ -815,7 +815,7 @@
             },
             "0.21": {
                 "description": " Precast Concrete Wall With interior insulation & gypsum finish ",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     168,
@@ -825,7 +825,7 @@
             },
             "0.247": {
                 "description": " Precast Concrete Wall With interior insulation & gypsum finish ",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     168,
@@ -839,7 +839,7 @@
         "psi": {
             "0.1": {
                 "description": "High Performance Precast Concrete Wall, 8\" Poly-iso Insulation, interior insulated & gypsum finish ",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     168,
@@ -848,7 +848,7 @@
             },
             "0.13": {
                 "description": "High Performance Precast Concrete Wall, 8\" XPS Insulation & interior insulated & gypsum finish ",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     168,
@@ -861,7 +861,7 @@
         "psi": {
             "0.183": {
                 "description": "Steel Sandwich Panel Wall, 6 in thick with 6 \" XPS and interior insulated wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -873,7 +873,7 @@
             },
             "0.21": {
                 "description": "Steel Sandwich Panel Wall, 6 in thick with 5 \" XPS and interior insulated wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -885,7 +885,7 @@
             },
             "0.247": {
                 "description": "Steel Sandwich Panel Wall, 5 in thick with 4 \" XPS, and interior insulated wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -897,7 +897,7 @@
             },
             "0.278": {
                 "description": "Steel Sandwich Panel Wall, 4.5 in thick with 4\" XPS and interior insulated wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -908,7 +908,7 @@
             },
             "0.314": {
                 "description": "Steel Sandwich Panel Wall, 4.5 in thick with 2 \" polystyrene, and interior insulated wall",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     11,
                     43,
@@ -924,7 +924,7 @@
         "psi": {
             "0.1": {
                 "description": "6\" Steel Sandwich Panel Wall, on Curtain Wall Frames, with interior batt insulation and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     196,
                     177
@@ -932,7 +932,7 @@
             },
             "0.13": {
                 "description": "6\" Steel Sandwich Panel Wall, on Curtain Wall Frames, with interior gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     1,
                     196,
                     176
@@ -944,7 +944,7 @@
         "psi": {
             "0.183": {
                 "description": "Structural Sheet Steel Wall with Cladding Supported by Notched Z-bar, 6\" Poly-Iso Exterior Insulation, unfinished interior",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     204,
                     203,
                     205,
@@ -956,7 +956,7 @@
             },
             "0.247": {
                 "description": "Structural Sheet Steel Wall with Cladding Supported by Notched Z-bar, 5\" Poly-Iso Exterior Insulation, unfinished interior",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     204,
                     203,
                     205,
@@ -972,7 +972,7 @@
         "psi": {
             "0.1": {
                 "description": "Structural Sheet Steel Wall with Cladding Supported by Notched Z-bar, 8\" Poly-Iso Exterior Insulation, interior stud wall c/w sprayfoam and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     160,
                     204,
@@ -987,7 +987,7 @@
             },
             "0.13": {
                 "description": "Structural Sheet Steel Wall with Cladding Supported by Notched Z-bar, 6\" Poly-Iso Exterior Insulation, interior stud wall c/w sprayfoam and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     160,
                     204,
@@ -1002,7 +1002,7 @@
             },
             "0.183": {
                 "description": "Structural Sheet Steel Wall with Cladding Supported by Notched Z-bar, 3\" Poly-Iso Exterior Insulation, interior stud wall c/w sprayfoam and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     160,
                     204,
@@ -1016,7 +1016,7 @@
             },
             "0.21": {
                 "description": "Structural Sheet Steel Wall with Cladding Supported by Notched Z-bar, 2\" Poly-Iso Exterior Insulation, interior stud wall c/w sprayfoam and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     160,
                     204,
@@ -1030,7 +1030,7 @@
             },
             "0.247": {
                 "description": "Structural Sheet Steel Wall with Cladding Supported by Notched Z-bar, 1\" Poly-Iso Exterior Insulation, interior stud wall c/w sprayfoam and gypsum finish",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     160,
                     204,
@@ -1048,7 +1048,7 @@
         "psi": {
             "0.183": {
                 "description": "Curtainwall: Glazed Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     60,
                     56,
@@ -1060,7 +1060,7 @@
             },
             "0.21": {
                 "description": "Curtainwall: Glazed Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     60,
                     6,
@@ -1072,7 +1072,7 @@
             },
             "0.247": {
                 "description": "Curtainwall: Glazed Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     60,
                     6,
@@ -1084,7 +1084,7 @@
             },
             "0.278": {
                 "description": "Curtainwall: Glazed Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     43,
                     6,
@@ -1095,7 +1095,7 @@
             },
             "0.314": {
                 "description": "Curtainwall: Glazed Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     43,
                     6,
@@ -1110,7 +1110,7 @@
         "psi": {
             "0.183": {
                 "description": "Curtainwall: Sandwich Panel Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     60,
                     56,
@@ -1122,7 +1122,7 @@
             },
             "0.21": {
                 "description": "Curtainwall: Sandwich Panel Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     60,
                     6,
@@ -1133,7 +1133,7 @@
             },
             "0.247": {
                 "description": "Curtainwall: Sandwich Panel Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     60,
                     6,
@@ -1144,7 +1144,7 @@
             },
             "0.278": {
                 "description": "Curtainwall: Sandwich Panel Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     43,
                     6,
@@ -1154,7 +1154,7 @@
             },
             "0.314": {
                 "description": "Curtainwall: Sandwich Panel Spandrel",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     43,
                     56,
@@ -1169,7 +1169,7 @@
         "psi": {
             "0.183": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     53,
@@ -1186,7 +1186,7 @@
             },
             "0.21": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     53,
@@ -1202,7 +1202,7 @@
             },
             "0.247": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     53,
@@ -1218,7 +1218,7 @@
             },
             "0.278": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     53,
@@ -1234,7 +1234,7 @@
             },
             "0.314": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1253,7 +1253,7 @@
         "psi": {
             "0.08": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Metal Panels",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1270,7 +1270,7 @@
             },
             "0.1": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Metal Panels",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1287,7 +1287,7 @@
             },
             "0.13": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Metal Panels",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1304,7 +1304,7 @@
             },
             "0.183": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Metal Panels",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1320,7 +1320,7 @@
             },
             "0.21": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Metal Panels",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1336,7 +1336,7 @@
             },
             "0.247": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Metal Panels",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1356,7 +1356,7 @@
         "psi": {
             "0.13": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1374,7 +1374,7 @@
             },
             "0.183": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1391,7 +1391,7 @@
             },
             "0.21": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1408,7 +1408,7 @@
             },
             "0.247": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Split Insulated Clad With Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     3,
                     43,
@@ -1429,7 +1429,7 @@
         "psi": {
             "0.1": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C., Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1444,7 +1444,7 @@
             },
             "0.13": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C., Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1459,7 +1459,7 @@
             },
             "0.183": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C., Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1473,7 +1473,7 @@
             },
             "0.21": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C., Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1487,7 +1487,7 @@
             },
             "0.247": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C., Exterior Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1505,7 +1505,7 @@
         "psi": {
             "0.183": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Exterior Insulated Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1521,7 +1521,7 @@
             },
             "0.21": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Exterior Insulated Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1536,7 +1536,7 @@
             },
             "0.247": {
                 "description": "Steel Framed 2\" x6\", 16 \" O.C. Exterior Insulated Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     11,
                     171,
                     172,
@@ -1555,7 +1555,7 @@
         "psi": {
             "0.183": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -1574,7 +1574,7 @@
             },
             "0.21": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -1593,7 +1593,7 @@
             },
             "0.247": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -1612,7 +1612,7 @@
             },
             "0.278": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -1631,7 +1631,7 @@
             },
             "0.314": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" x 8\" T&G Redwood Siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -1652,7 +1652,7 @@
         "psi": {
             "0.183": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" EPS EIFS",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1664,7 +1664,7 @@
             },
             "0.21": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" EPS EIFS",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1675,7 +1675,7 @@
             },
             "0.247": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" EPS EIFS",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     4,
@@ -1686,7 +1686,7 @@
             },
             "0.278": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" EPS EIFS",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     30,
@@ -1697,7 +1697,7 @@
             },
             "0.314": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1\" EPS EIFS",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     4,
@@ -1712,7 +1712,7 @@
         "psi": {
             "0.183": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1 \" x 8\" vinyl siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1727,7 +1727,7 @@
             },
             "0.21": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1 \" x 8\" vinyl siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1742,7 +1742,7 @@
             },
             "0.247": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1 \" x 8\" vinyl siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1757,7 +1757,7 @@
             },
             "0.278": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1 \" x 8\" vinyl siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1771,7 +1771,7 @@
             },
             "0.314": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 1 \" x 8\" vinyl siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     4,
@@ -1789,7 +1789,7 @@
         "psi": {
             "0.183": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 12\" painted metal siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1805,7 +1805,7 @@
             },
             "0.21": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 12\" painted metal siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1821,7 +1821,7 @@
             },
             "0.247": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 12\" painted metal siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     43,
@@ -1837,7 +1837,7 @@
             },
             "0.278": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 12\" painted metal siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1852,7 +1852,7 @@
             },
             "0.314": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 12\" painted metal siding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     4,
@@ -1871,7 +1871,7 @@
         "psi": {
             "0.183": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 4\" brick standard face veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1887,7 +1887,7 @@
             },
             "0.21": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 4\" brick standard face veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1903,7 +1903,7 @@
             },
             "0.247": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 4\" brick standard face veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     4,
@@ -1919,7 +1919,7 @@
             },
             "0.278": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 4\" brick standard face veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     53,
@@ -1935,7 +1935,7 @@
             },
             "0.314": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. with 4\" brick standard face veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     43,
@@ -1955,7 +1955,7 @@
         "psi": {
             "0.1": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -1973,7 +1973,7 @@
             },
             "0.13": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -1990,7 +1990,7 @@
             },
             "0.183": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -2007,7 +2007,7 @@
             },
             "0.21": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -2024,7 +2024,7 @@
             },
             "0.247": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -2045,7 +2045,7 @@
         "psi": {
             "0.08": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with interior sprayfoam and Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -2061,7 +2061,7 @@
             },
             "0.1": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with interior sprayfoam and Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -2077,7 +2077,7 @@
             },
             "0.13": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C., Split Insulated with interior sprayfoam and Metal Panel Cladding",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     139,
                     140,
@@ -2097,7 +2097,7 @@
         "psi": {
             "0.183": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. Split Insulated with Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     43,
@@ -2114,7 +2114,7 @@
             },
             "0.21": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. Split Insulated with Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     43,
@@ -2131,7 +2131,7 @@
             },
             "0.247": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. Split Insulated with Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     3,
                     43,
@@ -2152,7 +2152,7 @@
         "psi": {
             "0.13": {
                 "description": "Wood Framed 2\" x6\", 16 \" O.C. Split Insulated with Sprafoam and Brick Veneer",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     138,
                     160,
                     5,

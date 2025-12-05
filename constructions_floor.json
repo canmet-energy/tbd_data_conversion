@@ -3,7 +3,7 @@
         "psi": {
             "0.101": {
                 "description": "Steel Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     117,
                     145,
                     118,
@@ -16,7 +16,7 @@
             },
             "0.116": {
                 "description": "Steel Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     117,
                     145,
                     118,
@@ -28,7 +28,7 @@
             },
             "0.142": {
                 "description": "Steel Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     117,
                     145,
                     118,
@@ -41,7 +41,7 @@
             },
             "0.162": {
                 "description": "Steel Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     117,
                     145,
                     118,
@@ -54,7 +54,7 @@
             },
             "0.183": {
                 "description": "Steel Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     117,
                     145,
                     118,
@@ -67,7 +67,7 @@
             },
             "0.227": {
                 "description": "Steel Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     117,
                     145,
                     118,
@@ -83,7 +83,7 @@
         "psi": {
             "0.101": {
                 "description": "Wood Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     120,
                     118,
                     3,
@@ -95,7 +95,7 @@
             },
             "0.116": {
                 "description": "Wood Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     120,
                     118,
                     3,
@@ -106,7 +106,7 @@
             },
             "0.142": {
                 "description": "Wood Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     120,
                     118,
                     3,
@@ -118,7 +118,7 @@
             },
             "0.162": {
                 "description": "Wood Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     120,
                     118,
                     3,
@@ -130,7 +130,7 @@
             },
             "0.183": {
                 "description": "Wood Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     120,
                     118,
                     3,
@@ -141,7 +141,7 @@
             },
             "0.227": {
                 "description": "Wood Flooring with  Metal finish, 100 PSF load",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     120,
                     118,
                     3,

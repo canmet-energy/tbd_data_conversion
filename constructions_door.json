@@ -3,19 +3,19 @@
         "psi": {
             "1.6": {
                 "description": "Fibreglas Door",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     148
                 ]
             },
             "2.2": {
                 "description": "Metal Door",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     146
                 ]
             },
             "2.4": {
                 "description": "Metal Door",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     146
                 ]
             }
@@ -25,19 +25,19 @@
         "psi": {
             "1.6": {
                 "description": "Overhead Door",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     149
                 ]
             },
             "2.2": {
                 "description": "Overhead Door",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     149
                 ]
             },
             "2.4": {
                 "description": "Overhead Door",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     149
                 ]
             }

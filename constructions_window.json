@@ -3,55 +3,55 @@
         "psi": {
             "0.8": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     46
                 ]
             },
             "1.4": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     36
                 ]
             },
             "1.44": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     36
                 ]
             },
             "1.6": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     17
                 ]
             },
             "1.73": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     36
                 ]
             },
             "1.9": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     35
                 ]
             },
             "2.1": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     35
                 ]
             },
             "2.2": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     9
                 ]
             },
             "2.4": {
                 "description": "Curtainwall: Vision",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     1
                 ]
             }
@@ -61,19 +61,19 @@
         "psi": {
             "1.6": {
                 "description": "Mall Front Fixed Panels (window wall)",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     20
                 ]
             },
             "2.2": {
                 "description": "Mall Front Fixed Panels (window wall)",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     12
                 ]
             },
             "2.4": {
                 "description": "Mall Front Fixed Panels (window wall)",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     4
                 ]
             }
@@ -83,49 +83,49 @@
         "psi": {
             "0.8": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     46
                 ]
             },
             "1.4": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     38
                 ]
             },
             "1.44": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     38
                 ]
             },
             "1.73": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     38
                 ]
             },
             "1.9": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     37
                 ]
             },
             "2.1": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     37
                 ]
             },
             "2.41": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     37
                 ]
             },
             "2.69": {
                 "description": "Aluminum Window Wall",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     37
                 ]
             }
@@ -135,55 +135,55 @@
         "psi": {
             "0.8": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     46
                 ]
             },
             "1.4": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     41
                 ]
             },
             "1.44": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     41
                 ]
             },
             "1.6": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     40
                 ]
             },
             "1.73": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     40
                 ]
             },
             "1.9": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     40
                 ]
             },
             "2.1": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     39
                 ]
             },
             "2.2": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     14
                 ]
             },
             "2.4": {
                 "description": "Vinyl Commercial Picture Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     6
                 ]
             }
@@ -193,19 +193,19 @@
         "psi": {
             "1.6": {
                 "description": "Aluminum Commercial Picture  Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     24
                 ]
             },
             "2.2": {
                 "description": "Aluminum Commercial Picture  Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     16
                 ]
             },
             "2.4": {
                 "description": "Aluminum Commercial Picture  Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     8
                 ]
             }
@@ -215,49 +215,49 @@
         "psi": {
             "0.8": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     46
                 ]
             },
             "1.4": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     45
                 ]
             },
             "1.44": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     45
                 ]
             },
             "1.73": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     44
                 ]
             },
             "1.9": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     44
                 ]
             },
             "2.1": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     44
                 ]
             },
             "2.41": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     44
                 ]
             },
             "2.69": {
                 "description": "Fixed Storefront Glazing",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     44
                 ]
             }
@@ -267,19 +267,19 @@
         "psi": {
             "0.8": {
                 "description": "Fixed Fibreglass Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     46
                 ]
             },
             "1.4": {
                 "description": "Fixed Fibreglass Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     45
                 ]
             },
             "1.44": {
                 "description": "Fixed Fibreglass Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     45
                 ]
             }
@@ -289,19 +289,19 @@
         "psi": {
             "1.6": {
                 "description": "Aluminum Commercial Operable Sliders",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     21
                 ]
             },
             "2.2": {
                 "description": "Aluminum Commercial Operable Sliders",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     13
                 ]
             },
             "2.4": {
                 "description": "Aluminum Commercial Operable Sliders",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     5
                 ]
             }
@@ -311,19 +311,19 @@
         "psi": {
             "1.6": {
                 "description": "Vinyl-Wood Clad Commercial Casement Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     23
                 ]
             },
             "2.2": {
                 "description": "Vinyl-Wood Clad Commercial Casement Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     15
                 ]
             },
             "2.4": {
                 "description": "Vinyl-Wood Clad Commercial Casement Windows",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     7
                 ]
             }
@@ -333,49 +333,49 @@
         "psi": {
             "0.8": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     43
                 ]
             },
             "1.4": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     56
                 ]
             },
             "1.44": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     42
                 ]
             },
             "1.73": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     42
                 ]
             },
             "1.9": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     42
                 ]
             },
             "2.1": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     42
                 ]
             },
             "2.41": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     42
                 ]
             },
             "2.69": {
                 "description": "Wood-Look Finish on Vinyl Casement Window",
-                "material_glazing_id_layers": [
+                "id_layers": [
                     42
                 ]
             }

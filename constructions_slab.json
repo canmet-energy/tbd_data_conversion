@@ -3,7 +3,7 @@
         "psi": {
             "0.379": {
                 "description": "6 \" Concrete Reinforced Slab on Grade",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     123,
                     124,
                     125,
@@ -19,7 +19,7 @@
             },
             "0.758": {
                 "description": "6 \" Concrete Reinforced Slab on Grade",
-                "material_opaque_id_layers": [
+                "id_layers": [
                     123,
                     124,
                     125,

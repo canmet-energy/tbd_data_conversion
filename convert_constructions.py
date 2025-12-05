@@ -29,6 +29,7 @@ FIBRELGASS_DOOR_MAP = {
 
 def convert_constructions() -> None:
   with open(common.CONSTRUCTION_QAQC, "w") as qaqc_file:
+    construction_id = 1
     for sheet_name, file_name in common.CONSTRUCTION_PAIRS:
       df = pd.read_excel(common.SHEET_DATA_PATH, sheet_name = sheet_name)
       id_column = CONSTRUCTION_ID_MAP[sheet_name]
@@ -66,10 +67,13 @@ def convert_constructions() -> None:
       for (construction, psi), group in df.groupby(level = [0, 1]):
         if construction not in json_data:
           json_data[construction] = {"psi" : {}}
+
         json_data[construction]["psi"][psi] = {
-          "description": group.iloc[0]["description_x"],
-          "id_layers": [int(row[id_column]) for _, row in group.iterrows()]
-        }
+          "id"          : construction_id,
+          "description" : group.iloc[0]["description_x"],
+          "id_layers"   : [int(row[id_column]) for _, row in group.iterrows()] }
+
+        construction_id += 1
       
       with open(file_name, "w") as file:
         json.dump(json_data, file, indent = 4)

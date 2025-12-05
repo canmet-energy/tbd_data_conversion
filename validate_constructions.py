@@ -56,8 +56,8 @@ def validate_construction_file(file_path, sheet_name):
         errors.append(f"Invalid JSON in {file_path}: {e}")
         return False, errors, warnings, stats
     
-    id_column = common.CONSTRUCTION_ID_MAP[sheet_name]
-    
+    df = df.rename(columns={common.CONSTRUCTION_ID_MAP[sheet_name]: "id_layers"})
+
     # Forward fill Excel data
     df["construction_type_name"] = df["construction_type_name"].ffill()
     df["u_w_per_m2_k"] = df["u_w_per_m2_k"].ffill()
@@ -97,44 +97,39 @@ def validate_construction_file(file_path, sheet_name):
             continue
         
         json_psi_dict = json_data[construction]["psi"]
+        json_psi_dict = json_data[construction]["psi"]
         
-        # Check if PSI value exists in JSON (try both float and string)
-        json_psi_data = None
-        if psi_str in json_psi_dict:
-            json_psi_data = json_psi_dict[psi_str]
-        elif psi in json_psi_dict:
-            json_psi_data = json_psi_dict[psi]
-        
+        json_psi_data = json_psi_dict.get(psi_str) or json_psi_dict.get(psi)
         if json_psi_data is None:
             errors.append(f"{construction}: PSI value {psi} from Excel not found in JSON")
             stats["mismatched"] += 1
             continue
         
-        # Validate material layers
-        if id_column not in json_psi_data:
-            errors.append(f"{construction} [PSI={psi}]: Missing '{id_column}' in JSON")
+        if "id_layers" not in json_psi_data:
+            errors.append(f"{construction} [PSI={psi}]: Missing id_layers in JSON")
             stats["mismatched"] += 1
             continue
         
-        json_layers = json_psi_data[id_column]
-        excel_layer_ids = [int(x) for x in group[id_column].dropna().tolist()]
-        json_layer_ids = [int(layer["id"]) for layer in json_layers]
+        excel_layers = group["id_layers"].dropna().tolist()
+        json_layers = json_psi_data["id_layers"]
         
-        # Compare layer counts
-        if len(excel_layer_ids) != len(json_layer_ids):
-            errors.append(
-                f"{construction} [PSI={psi}]: Layer count mismatch - "
-                f"Excel has {len(excel_layer_ids)} layers, JSON has {len(json_layer_ids)} layers"
-            )
+        if not isinstance(json_layers, list):
+            errors.append(f"{construction} [PSI={psi}]: id_layers must be a list")
             stats["mismatched"] += 1
             continue
         
-        # Compare layer IDs
-        if excel_layer_ids != json_layer_ids:
-            errors.append(
-                f"{construction} [PSI={psi}]: Layer IDs mismatch - "
-                f"Excel: {excel_layer_ids}, JSON: {json_layer_ids}"
-            )
+        excel_ids = [int(x) for x in excel_layers]
+        json_ids = [int(x) for x in json_layers]
+        
+        if len(excel_ids) != len(json_ids):
+            if len(excel_ids) == 0 and len(json_ids) == 1:
+                warnings.append(f"{construction} [PSI={psi}]: Fibreglass substitution")
+                stats["matched"] += 1
+            else:
+                errors.append(f"{construction} [PSI={psi}]: Layer count mismatch - Excel: {len(excel_ids)}, JSON: {len(json_ids)}")
+                stats["mismatched"] += 1
+        elif excel_ids != json_ids:
+            errors.append(f"{construction} [PSI={psi}]: Layer IDs mismatch")
             stats["mismatched"] += 1
         else:
             stats["matched"] += 1
@@ -154,6 +149,7 @@ def main():
     print("="*80)
     
     all_valid = True
+    global_id_set = set()
     total_stats = {
         "excel_constructions": 0,
         "json_constructions": 0,
@@ -167,6 +163,23 @@ def main():
         file_path = Path(file_name)
         print(f"\nValidating: {file_name} vs Excel sheet '{sheet_name}'")
         print("-" * 80)
+        
+        # Load JSON to check for duplicate IDs across all files
+        try:
+            with open(file_path, 'r') as f:
+                json_data = json.load(f)
+            for construction_data in json_data.values():
+                if "psi" in construction_data:
+                    for psi_data in construction_data["psi"].values():
+                        if "id" in psi_data:
+                            psi_id = psi_data["id"]
+                            if psi_id in global_id_set:
+                                print(f"  ERROR: Duplicate ID {psi_id} found in {file_name}")
+                                all_valid = False
+                            global_id_set.add(psi_id)
+        except Exception as e:
+            print(f"  ERROR: Failed to check IDs in {file_name}: {e}")
+            all_valid = False
         
         is_valid, errors, warnings, stats = validate_construction_file(file_path, sheet_name)
         
@@ -183,7 +196,7 @@ def main():
         print(f"  Mismatched:          {stats['mismatched']}")
         
         if warnings:
-            print(f"\n  ⚠ Warnings ({len(warnings)}):")
+            print(f"\n  Warnings ({len(warnings)}):")
             for warning in warnings[:10]:
                 print(f"    - {warning}")
             if len(warnings) > 10:
@@ -211,11 +224,11 @@ def main():
     print(f"Total Mismatched:          {total_stats['mismatched']}")
     
     if all_valid:
-        print("\n✓ All construction files match Excel data!")
+        print("\nAll construction files match Excel data")
         print("="*80)
         sys.exit(0)
     else:
-        print("\n✗ Validation failed with errors")
+        print("\nValidation failed with errors")
         print("="*80)
         sys.exit(1)
 

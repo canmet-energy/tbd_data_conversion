@@ -2,6 +2,7 @@
     "BTAP-ExteriorRoof-IEAD-1": {
         "psi": {
             "0.121": {
+                "id": 163,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -12,6 +13,7 @@
                 ]
             },
             "0.138": {
+                "id": 164,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -21,6 +23,7 @@
                 ]
             },
             "0.142": {
+                "id": 165,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -30,6 +33,7 @@
                 ]
             },
             "0.156": {
+                "id": 166,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -40,6 +44,7 @@
                 ]
             },
             "0.162": {
+                "id": 167,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -50,6 +55,7 @@
                 ]
             },
             "0.183": {
+                "id": 168,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -60,6 +66,7 @@
                 ]
             },
             "0.193": {
+                "id": 169,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -70,6 +77,7 @@
                 ]
             },
             "0.227": {
+                "id": 170,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -83,6 +91,7 @@
     "BTAP-ExteriorRoof-IEAD-2": {
         "psi": {
             "0.121": {
+                "id": 171,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -93,6 +102,7 @@
                 ]
             },
             "0.138": {
+                "id": 172,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -102,6 +112,7 @@
                 ]
             },
             "0.142": {
+                "id": 173,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -111,6 +122,7 @@
                 ]
             },
             "0.156": {
+                "id": 174,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -121,6 +133,7 @@
                 ]
             },
             "0.162": {
+                "id": 175,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -131,6 +144,7 @@
                 ]
             },
             "0.183": {
+                "id": 176,
                 "description": "Built-up Deck Roof on a Steel Deck",
                 "id_layers": [
                     87,
@@ -141,6 +155,7 @@
                 ]
             },
             "0.193": {
+                "id": 177,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -151,6 +166,7 @@
                 ]
             },
             "0.227": {
+                "id": 178,
                 "description": "Built-up Deck Roof on a Nailable Deck",
                 "id_layers": [
                     87,
@@ -164,6 +180,7 @@
     "BTAP-ExteriorRoof-IEAD-3": {
         "psi": {
             "0.121": {
+                "id": 179,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -174,6 +191,7 @@
                 ]
             },
             "0.138": {
+                "id": 180,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -183,6 +201,7 @@
                 ]
             },
             "0.142": {
+                "id": 181,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -192,6 +211,7 @@
                 ]
             },
             "0.156": {
+                "id": 182,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -202,6 +222,7 @@
                 ]
             },
             "0.162": {
+                "id": 183,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -212,6 +233,7 @@
                 ]
             },
             "0.183": {
+                "id": 184,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -222,6 +244,7 @@
                 ]
             },
             "0.193": {
+                "id": 185,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -232,6 +255,7 @@
                 ]
             },
             "0.227": {
+                "id": 186,
                 "description": "Deck Roof with a Membrane on a Nailable Deck",
                 "id_layers": [
                     94,
@@ -245,6 +269,7 @@
     "BTAP-ExteriorRoof-IEAD-4": {
         "psi": {
             "0.1": {
+                "id": 187,
                 "description": "Deck Roof with a Membrane on Steel Deck",
                 "id_layers": [
                     94,
@@ -256,6 +281,7 @@
                 ]
             },
             "0.121": {
+                "id": 188,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -266,6 +292,7 @@
                 ]
             },
             "0.138": {
+                "id": 189,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -275,6 +302,7 @@
                 ]
             },
             "0.142": {
+                "id": 190,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -284,6 +312,7 @@
                 ]
             },
             "0.156": {
+                "id": 191,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -294,6 +323,7 @@
                 ]
             },
             "0.162": {
+                "id": 192,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -304,6 +334,7 @@
                 ]
             },
             "0.183": {
+                "id": 193,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -314,6 +345,7 @@
                 ]
             },
             "0.193": {
+                "id": 194,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -324,6 +356,7 @@
                 ]
             },
             "0.227": {
+                "id": 195,
                 "description": "Deck Roof with a Membrane on a Steel Deck",
                 "id_layers": [
                     94,
@@ -338,6 +371,7 @@
     "BTAP-ExteriorRoof-IEAD-5": {
         "psi": {
             "0.121": {
+                "id": 196,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -349,6 +383,7 @@
                 ]
             },
             "0.138": {
+                "id": 197,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -360,6 +395,7 @@
                 ]
             },
             "0.142": {
+                "id": 198,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -370,6 +406,7 @@
                 ]
             },
             "0.156": {
+                "id": 199,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -381,6 +418,7 @@
                 ]
             },
             "0.162": {
+                "id": 200,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -392,6 +430,7 @@
                 ]
             },
             "0.183": {
+                "id": 201,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -403,6 +442,7 @@
                 ]
             },
             "0.193": {
+                "id": 202,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -414,6 +454,7 @@
                 ]
             },
             "0.227": {
+                "id": 203,
                 "description": "Asphalt Shingle Roofing, ",
                 "id_layers": [
                     98,
@@ -429,6 +470,7 @@
     "BTAP-ExteriorRoof-IEAD-6": {
         "psi": {
             "0.121": {
+                "id": 204,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -440,6 +482,7 @@
                 ]
             },
             "0.138": {
+                "id": 205,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -451,6 +494,7 @@
                 ]
             },
             "0.142": {
+                "id": 206,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -462,6 +506,7 @@
                 ]
             },
             "0.156": {
+                "id": 207,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -473,6 +518,7 @@
                 ]
             },
             "0.162": {
+                "id": 208,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -484,6 +530,7 @@
                 ]
             },
             "0.183": {
+                "id": 209,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -495,6 +542,7 @@
                 ]
             },
             "0.193": {
+                "id": 210,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -506,6 +554,7 @@
                 ]
             },
             "0.227": {
+                "id": 211,
                 "description": "Asphalt Shingle Roofing, Attic Insulation",
                 "id_layers": [
                     98,
@@ -521,6 +570,7 @@
     "BTAP-ExteriorRoof-Metal-1": {
         "psi": {
             "0.121": {
+                "id": 212,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -532,6 +582,7 @@
                 ]
             },
             "0.138": {
+                "id": 213,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -543,6 +594,7 @@
                 ]
             },
             "0.142": {
+                "id": 214,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -553,6 +605,7 @@
                 ]
             },
             "0.156": {
+                "id": 215,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -564,6 +617,7 @@
                 ]
             },
             "0.162": {
+                "id": 216,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -575,6 +629,7 @@
                 ]
             },
             "0.183": {
+                "id": 217,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -586,6 +641,7 @@
                 ]
             },
             "0.193": {
+                "id": 218,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -597,6 +653,7 @@
                 ]
             },
             "0.227": {
+                "id": 219,
                 "description": "Steel Roofing, painted galvanized ",
                 "id_layers": [
                     95,
@@ -612,6 +669,7 @@
     "BTAP-ExteriorRoof-Metal-2": {
         "psi": {
             "0.121": {
+                "id": 220,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
@@ -623,6 +681,7 @@
                 ]
             },
             "0.138": {
+                "id": 221,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
@@ -634,6 +693,7 @@
                 ]
             },
             "0.142": {
+                "id": 222,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
@@ -645,6 +705,7 @@
                 ]
             },
             "0.156": {
+                "id": 223,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
@@ -656,6 +717,7 @@
                 ]
             },
             "0.162": {
+                "id": 224,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
@@ -667,6 +729,7 @@
                 ]
             },
             "0.183": {
+                "id": 225,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
@@ -678,6 +741,7 @@
                 ]
             },
             "0.193": {
+                "id": 226,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
@@ -689,6 +753,7 @@
                 ]
             },
             "0.227": {
+                "id": 227,
                 "description": "Steel Roofing, painted galvanized Attic Insulation",
                 "id_layers": [
                     95,
